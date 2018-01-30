@@ -1,13 +1,20 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
+<view class='container'>
+  <view class='header'>
+    <input placeholder="按姓名、医院搜索" />
+    <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
+  </view>
+  <view class='doctor-list'>
+
+  </view>
+  <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
+  <view class="usermotto">薄荷牙医-正畸
     <text class="user-motto">{{motto}}</text>
-  </view>
+  </view> -->
 </view>

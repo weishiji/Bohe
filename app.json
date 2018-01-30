@@ -5,8 +5,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#6BB6A5",
+    "navigationBarTitleText": "薄荷牙医-正畸",
+    "navigationBarTextStyle":"#FFF"
   }
 }
