@@ -10,4 +10,5 @@
   font-size: smaller;
   margin : 4px 0;
   display: block;
+  color: #fff;
 }
