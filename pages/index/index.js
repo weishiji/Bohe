@@ -4,10 +4,8 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Bohe',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    loading : false,
+    //canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
   bindViewTap: function() {
