@@ -1,10 +1,12 @@
 //index.js
 //获取应用实例
 const app = getApp()
+import util from '../../utils/util.js'
 
 Page({
   data: {
     loading : false,
+    doctorList : [],
     //canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
@@ -14,10 +16,13 @@ Page({
     })
   },
   onLoad: function () {
-    let url = 'https://wxif.boheyayi.com/doctor/doctorlist';
+    let url = util.api('/doctor/doctorlist');
     wx.request({
       url,
-      success: function(res) {
+      success: (res) => {
+        this.setData({
+          doctorList : res.data,
+        });
         console.log(res.data)
       }
     })
