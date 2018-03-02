@@ -16,8 +16,7 @@ Page({
     })
   },
   onLoad: function () {
-    let url = 'http://wxif.boheyayi.com/doctor/doctorlist';
-    console.log(url,'this is url');
+    let url = 'https://wxif.boheyayi.com/doctor/doctorlist';
     wx.request({
       url,
       success: function(res) {
