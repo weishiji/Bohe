@@ -1,7 +1,6 @@
 <!--index.wxml-->
 <view class='container'>
   <view class='header'>
-    <input placeholder="按姓名、医院搜索" />
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
   </view>
   <view class='doctor-list'>
