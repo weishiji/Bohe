@@ -18,8 +18,20 @@
 .list-box{
   height: calc(100vh-32px);
   margin-top : 32px;
-  padding: 4px;
+  width: 100%;
 }
 .doctor-item{
-  height : 100px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px;
 }
+.avatar{
+  width : 80px;
+  height: 80px;
+  border-radius: 50%; 
+}
+.media-body{
+  flex : 1;
+  margin-left: 4px;
+}
+

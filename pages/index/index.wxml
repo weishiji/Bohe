@@ -5,7 +5,17 @@
   </view>
   <view class='list-box'>
     <view wx:for="{{doctorList.data}}" wx:key="unique" class='doctor-item'>
-      {{index}} : {{item.name}}
+      <image 
+        class='avatar' 
+        mode='scaleToFill'
+        src='{{imgPath}}{{item.photo}}'
+      >
+      </image>
+      <view
+        class='media-body'
+      >
+        <text>{{item.name}}</text>
+      </view>
     </view>
   </view>
 

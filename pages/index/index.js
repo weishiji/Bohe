@@ -1,12 +1,13 @@
 //index.js
 //获取应用实例
-const app = getApp()
-import util from '../../utils/util.js'
+const app = getApp();
+import config from '../../config.js';
 
 Page({
   data: {
     loading : false,
     doctorList : [],
+    imgPath: config.imgPath,
     //canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
@@ -25,7 +26,7 @@ Page({
     console.log('scroll');
   },
   onLoad: function () {
-    let url = util.api('/doctor/doctorlist');
+    let url = config.api + '/doctor/doctorlist'
     wx.request({
       url,
       success: (res) => {
