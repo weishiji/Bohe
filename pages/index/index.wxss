@@ -20,6 +20,6 @@
   margin-top : 32px;
   padding: 4px;
 }
-.doctor-list{
+.doctor-item{
   height : 100px;
 }

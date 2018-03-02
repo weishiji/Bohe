@@ -4,7 +4,7 @@
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
   </view>
   <view class='list-box'>
-    <view wx:for="{{doctorList.data}}" wx:key="unique" class='doctor-list'>
+    <view wx:for="{{doctorList.data}}" wx:key="unique" class='doctor-item'>
       {{index}} : {{item.name}}
     </view>
   </view>
