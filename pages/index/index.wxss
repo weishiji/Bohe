@@ -5,10 +5,21 @@
   color : #FFF;
   text-align: center;
   padding: 4px;
+  position: fixed;
+  z-index: 9;
 }
 .header-title {
   font-size: smaller;
   margin : 4px 0;
   display: block;
   color: #fff;
+}
+
+.list-box{
+  height: calc(100vh-32px);
+  margin-top : 32px;
+  padding: 4px;
+}
+.doctor-list{
+  height : 100px;
 }

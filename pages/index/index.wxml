@@ -3,9 +3,12 @@
   <view class='header'>
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
   </view>
-  <view wx:for="{{doctorList.data}}" wx:key="unique" class='doctor-list'>
-    {{index}} : {{item.name}}
+  <view class='list-box'>
+    <view wx:for="{{doctorList.data}}" wx:key="unique" class='doctor-list'>
+      {{index}} : {{item.name}}
+    </view>
   </view>
+
   <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

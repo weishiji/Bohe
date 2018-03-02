@@ -15,6 +15,15 @@ Page({
       url: '../logs/logs'
     })
   },
+  upper : () => {
+    console.log('upper');
+  },
+  lower : () => {
+    console.log('lower');
+  },
+  scroll : function(){
+    console.log('scroll');
+  },
   onLoad: function () {
     let url = util.api('/doctor/doctorlist');
     wx.request({
