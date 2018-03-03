@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class='container'>
+  <view>宋先生</view>
+</view>

@@ -16,23 +16,18 @@ Page({
       url: '../logs/logs'
     })
   },
-  upper : () => {
-    console.log('upper');
-  },
-  lower : () => {
-    console.log('lower');
-  },
-  scroll : function(){
-    console.log('scroll');
-  },
   onLoad: function () {
-    let url = config.api + '/doctor/doctorlist'
+    let url = config.api + '/doctor/doctorlist';
+    wx.showLoading({
+      title: '加载中...',
+    });
     wx.request({
       url,
       success: (res) => {
         this.setData({
           doctorList : res.data,
         });
+        wx.hideLoading();
         console.log(res.data)
       }
     })

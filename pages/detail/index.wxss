@@ -1,0 +1,37 @@
+/**index.wxss**/
+.header{
+  width : 100%;
+  background-color: #2F7979;
+  color : #FFF;
+  text-align: center;
+  padding: 4px;
+  position: fixed;
+  z-index: 9;
+}
+.header-title {
+  font-size: smaller;
+  margin : 4px 0;
+  display: block;
+  color: #fff;
+}
+
+.list-box{
+  height: calc(100vh-32px);
+  margin-top : 32px;
+  width: 100%;
+}
+.doctor-item{
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.avatar{
+  width : 80px;
+  height: 80px;
+  border-radius: 50%; 
+}
+.media-body{
+  flex : 1;
+  margin-left: 4px;
+}
+
