@@ -5,22 +5,22 @@ import config from '../../config.js';
 
 Page({
   data: {
+    data : {},
   },
   onLoad: function (option) {
-    wx.setNavigationBarTitle({
-      title: '宋先生',
-    });
-    console.log(option.id);
-    let url = config.api + '/doctor/doctorlist'
+    let url = config.api + '/doctor/doctorone?id=' + option.id;
     wx.request({
       url,
       success: (res) => {
         this.setData({
-          doctorList : res.data,
+          data : res.data.data,
+        });
+        wx.setNavigationBarTitle({
+          title: res.data.data.name,
         });
         console.log(res.data)
       }
-    })
+    });
     
   }
 })

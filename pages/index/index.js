@@ -17,7 +17,7 @@ Page({
     })
   },
   onLoad: function () {
-    let url = config.api + '/doctor/doctorlist';
+    let url = config.api + '/doctor/doctorlist?num=999';
     wx.showLoading({
       title: '加载中...',
     });
