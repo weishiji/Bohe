@@ -1,12 +1,13 @@
 //index.js
 //获取应用实例
-const app = getApp()
-import util from '../../utils/util.js'
+const app = getApp();
+import config from '../../config.js';
 
 Page({
   data: {
     loading : false,
     doctorList : [],
+    imgPath: config.imgPath,
     //canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
@@ -15,23 +16,18 @@ Page({
       url: '../logs/logs'
     })
   },
-  upper : () => {
-    console.log('upper');
-  },
-  lower : () => {
-    console.log('lower');
-  },
-  scroll : function(){
-    console.log('scroll');
-  },
   onLoad: function () {
-    let url = util.api('/doctor/doctorlist');
+    let url = config.api + '/doctor/doctorlist';
+    wx.showLoading({
+      title: '加载中...',
+    });
     wx.request({
       url,
       success: (res) => {
         this.setData({
           doctorList : res.data,
         });
+        wx.hideLoading();
         console.log(res.data)
       }
     })
