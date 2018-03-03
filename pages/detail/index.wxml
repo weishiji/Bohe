@@ -1,4 +1,10 @@
 <!--index.wxml-->
 <view class='container'>
-  <view>{{data.name}}</view>
+  <view class='detail-header'>
+    <image class='avatar' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
+    </image>
+    <view class='doctor-name'>{{data.name}}</view>
+    <view class='doctor-title'>{{data.institution}} | {{data.jobtitle}} | 从业12年</view>
+  </view>
+
 </view>

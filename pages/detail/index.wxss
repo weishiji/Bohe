@@ -1,37 +1,20 @@
-/**index.wxss**/
-.header{
-  width : 100%;
-  background-color: #2F7979;
-  color : #FFF;
-  text-align: center;
-  padding: 4px;
-  position: fixed;
-  z-index: 9;
-}
-.header-title {
-  font-size: smaller;
-  margin : 4px 0;
-  display: block;
-  color: #fff;
-}
-
-.list-box{
-  height: calc(100vh-32px);
-  margin-top : 32px;
-  width: 100%;
-}
-.doctor-item{
+.detail-header{
+  padding : 8px;
   display: flex;
-  justify-content: flex-start;
+  flex-direction:column;
+  width: 100%;
+  text-align: center;
+  align-items:center;
+}
+.detail-header .doctor-name{
+  color: #333333;
   padding: 8px;
 }
-.avatar{
-  width : 80px;
-  height: 80px;
-  border-radius: 50%; 
+.detail-header .avatar,.detail-header .doctor-name{
+  flex: 1;
 }
-.media-body{
-  flex : 1;
-  margin-left: 4px;
+.doctor-title{
+  color : #868686;
+  font-size: 13px;
 }
 

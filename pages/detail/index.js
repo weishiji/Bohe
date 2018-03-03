@@ -6,17 +6,19 @@ import config from '../../config.js';
 Page({
   data: {
     data : {},
+    imgPath: config.imgPath,
   },
   onLoad: function (option) {
     let url = config.api + '/doctor/doctorone?id=' + option.id;
     wx.request({
       url,
       success: (res) => {
+        let {data:{data}} = res;
         this.setData({
-          data : res.data.data,
+          data,
         });
         wx.setNavigationBarTitle({
-          title: res.data.data.name,
+          title: data.name,
         });
         console.log(res.data)
       }
