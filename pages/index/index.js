@@ -5,7 +5,7 @@ import config from '../../config.js';
 
 Page({
   data: {
-    loading : false,
+    loading : true,
     doctorList : [],
     imgPath: config.imgPath,
     //canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -26,6 +26,7 @@ Page({
       success: (res) => {
         this.setData({
           doctorList : res.data,
+          loading : false,
         });
         wx.hideLoading();
         console.log(res.data)

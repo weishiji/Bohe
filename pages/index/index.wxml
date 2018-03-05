@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class='container'>
+<view wx:if="{{!loading}}" class='container'>
   <view class='header'>
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
   </view>

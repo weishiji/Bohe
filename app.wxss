@@ -1,4 +1,8 @@
 /**app.wxss**/
+page{
+  background: #F5F5F9;
+  overflow-x: hidden;
+}
 .container {
   height: 100%;
   display: flex;
@@ -6,7 +10,15 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  
 } 
+.box{
+  background: #FFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  border-bottom: 1px solid #E4E4E4;
+  padding : 8px 0;
+  margin-bottom: 8px;
+}
 .avatar{
   width : 80px;
   height: 80px;

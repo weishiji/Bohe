@@ -1,3 +1,4 @@
+
 /**index.wxss**/
 .header{
   width : 100%;
@@ -30,4 +31,3 @@
   flex : 1;
   margin-left: 4px;
 }
-
