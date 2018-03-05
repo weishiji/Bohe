@@ -8,10 +8,16 @@
       <image class='avatar' mode='scaleToFill' src='{{imgPath}}{{item.photo}}'>
       </image>
       <view class='media-body'>
-        <text>{{item.name}}</text>
+        <view>{{item.name}} <text class='work-time'>8年</text></view>
+        <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}</view>
+        <view class='case-text'>正畸:<text class='num'>2587</text>例</view>
+        <view class='case-text'>复杂正畸:<text class='num'>937</text>例</view>
+        <view class='more'>
+          MORE...
+          <image class='more-icon' src='../../assets/more.svg'></image>
+        </view>
       </view>
     </navigator>
-
 
   </view>
 

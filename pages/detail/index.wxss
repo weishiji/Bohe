@@ -65,3 +65,6 @@
   color:#878787;
   margin:16px 0;
 }
+.case-box{
+  display: flex;
+}

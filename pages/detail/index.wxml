@@ -37,4 +37,11 @@
 </view>
 <view class='box case'>
   <view class='title-line'>典型案例</view>
+  <view class='case-box'>
+    <view class='case-avatar avatar'>
+    </view>
+    <view class='case-content'>
+
+    </view>
+  </view>
 </view>
