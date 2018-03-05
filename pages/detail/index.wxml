@@ -1,47 +1,49 @@
 <!--index.wxml-->
-<view wx:if="{{!loading}}" class='container box'>
-  <view class='detail-header'>
-    <image class='avatar' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
-    </image>
-    <view class='doctor-name'>{{data.name}}</view>
-    <view class='doctor-title'>{{data.institution}} | {{data.jobtitle}} | 从业12年</view>
-  </view>
-  <view class='doctor-sub'>
-    <text>正畸:</text>
-    <text class='num'>24987</text>
-    <text>例</text>
-  </view>
-  <view class='doctor-sub'>
-    <text>复杂正畸:</text>
-    <text class='num'>1987</text>
-    <text>例</text>
-  </view>
-  <view class='auth'>
-    <view class='auth-item'>
-      <view>真实身份认证</view>
+<view wx:if="{{!loading}}">
+  <view class='container box'>
+    <view class='detail-header'>
+      <image class='avatar' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
+      </image>
+      <view class='doctor-name'>{{data.name}}</view>
+      <view class='doctor-title'>{{data.institution}} | {{data.jobtitle}} | 从业12年</view>
     </view>
-    <view class='auth-item'>
+    <view class='doctor-sub'>
+      <text>正畸:</text>
+      <text class='num'>24987</text>
+      <text>例</text>
+    </view>
+    <view class='doctor-sub'>
+      <text>复杂正畸:</text>
+      <text class='num'>1987</text>
+      <text>例</text>
+    </view>
+    <view class='auth'>
+      <view class='auth-item'>
+        <view>真实身份认证</view>
+      </view>
+      <view class='auth-item'>
 
-      <view>执照资格认证</view>
-    </view>
-    <view class='auth-item'>
+        <view>执照资格认证</view>
+      </view>
+      <view class='auth-item'>
 
-      <view>医师资格认证</view>
+        <view>医师资格认证</view>
+      </view>
     </view>
   </view>
-</view>
-<view class='box detail-info'>
-  <view class='title-line'>简介与擅长</view>
-  <view class='skill'>{{data.skilledin}}</view>
-  <view class='introduce'>{{data.introduce}}</view>
-</view>
-<view class='box case'>
-  <view class='title-line'>典型案例</view>
-  <view class='case-box'>
-    <view class='case-avatar avatar'>
-    </view>
-    <view class='case-content'>
+  <view class='box detail-info'>
+    <view class='title-line'>简介与擅长</view>
+    <view class='skill'>{{data.skilledin}}</view>
+    <view class='introduce'>{{data.introduce}}</view>
+  </view>
+  <view class='box case'>
+    <view class='title-line'>典型案例</view>
+    <view class='case-box'>
+      <view class='case-avatar avatar'>
+      </view>
+      <view class='case-content'>
 
+      </view>
     </view>
   </view>
 </view>
