@@ -46,4 +46,7 @@
       </view>
     </view>
   </view>
+  <view class='button-box'>
+    <button class='button'>立即咨询</button>
+  </view>
 </view>

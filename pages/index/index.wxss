@@ -18,9 +18,21 @@
 
 .list-box{
   height: calc(100vh-32px);
-  margin-top : 32px;
+  margin-top :32px;
   width: 100%;
   background-color: #FFF;
+}
+.button-box{
+  margin : 0px 0 56px 0;
+  width: 100%;
+}
+.button{
+  background-color: #585859;
+  color:#FFF;
+  font-size: 13px;
+  padding: 8px 0;
+  margin: 16px;
+  
 }
 .doctor-item{
   display: flex;
@@ -63,4 +75,35 @@
   height: 20px;
   position: relative;
   top:5px;
+}
+.tabs{
+  position: fixed;
+  left:0;
+  width:100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  border-top:1px solid #AEAEAE;
+}
+.tab{
+  border:none;
+  flex: 1;
+  text-align: center;
+  padding: 16px;
+  border-radius: 0;
+  -webkit-tap-highlight-color:transparent;
+  position: relative;
+  top:-1px;
+  font-size: 14px;
+}
+.active{
+  border-top:1px solid #2F7979;
+  color:#2F7979;
+}
+.line{
+  position: absolute;
+  right: 0;
+  color:#AEAEAE;
 }

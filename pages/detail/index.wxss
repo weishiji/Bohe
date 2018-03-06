@@ -69,3 +69,12 @@
 .case-box{
   display: flex;
 }
+.button-box{
+  padding : 16px 8px;
+}
+.button{
+  background-color: #4F7878;
+  color:#FFF;
+  font-size: 13px;
+  padding:8px 0;
+}
