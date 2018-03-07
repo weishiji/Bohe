@@ -16,6 +16,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  handleToTeam : () => {
+    wx.navigateTo({
+      url: '../team/index'
+    })
+  },
   onLoad: function () {
     let url = config.api + '/doctor/doctorlist?num=999';
     wx.showLoading({
