@@ -21,6 +21,12 @@ Page({
       url: '../team/index'
     })
   },
+  handleCustomerService : () => {
+    console.log('go to customer service');
+    wx.navigateTo({
+      url: '../customerService/index',
+    });
+  },
   onLoad: function () {
     let url = config.api + '/doctor/doctorlist?num=999';
     wx.showLoading({

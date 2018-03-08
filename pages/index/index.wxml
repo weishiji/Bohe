@@ -25,7 +25,7 @@
   </view>
   <view class='tabs'>
     <view class='tab active'>医生团队 <text class='line'>|</text></view>
-    <view class='tab'>在线咨询</view>
+    <view class='tab' bindtap='handleCustomerService'>在线咨询</view>
   </view>
 
   <!-- <view class="userinfo">
