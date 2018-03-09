@@ -37,7 +37,9 @@ Page({
         ...filterData,
       })
       return origin;
-    },[]);
+    },[]).sort((a,b) => {
+      return a.sort - b.sort;
+    });
   },
   onLoad: function () {
     let url = config.api + '/doctor/doctorlist?num=999';

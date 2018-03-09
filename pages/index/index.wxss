@@ -63,7 +63,7 @@
 }
 .case-text .num{
   color : #F27F75;
-  padding: 0 4px;
+  padding: 0 2px;
 }
 .more{
   text-align: right;
