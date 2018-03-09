@@ -5,14 +5,18 @@
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
   </view>
   <view class='list-box'>
-    <navigator url="../detail/index?id={{item.id}}" wx:for="{{doctorList.data}}" wx:key="unique" class='doctor-item'>
-      <image class='avatar' mode='scaleToFill' src='{{imgPath}}{{item.photo}}'>
+    <navigator url="../detail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>
+      <image class='avatar' mode='scaleToFill' src='{{item.photo}}'>
       </image>
       <view class='media-body'>
-        <view>{{item.name}} <text class='work-time'>8年</text></view>
+        <view>{{item.name}}
+          <text class='work-time'>{{item.yearService}}年</text>
+        </view>
         <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}</view>
-        <view class='case-text'>正畸:<text class='num'>2587</text>例</view>
-        <view class='case-text'>复杂正畸:<text class='num'>937</text>例</view>
+        <view class='case-text'>正畸:
+          <text class='num'>{{item.caseNum}}</text>例</view>
+        <view class='case-text'>复杂正畸:
+          <text class='num'>{{item.hardCaseNum}}</text>例</view>
         <view class='more'>
           MORE...
           <image class='more-icon' src='../../assets/more.svg'></image>
@@ -22,10 +26,16 @@
   </view>
   <view class='button-box'>
     <button bindtap='handleToTeam' class='button'>更多医生</button>
+
+    
   </view>
   <view class='tabs'>
-    <view class='tab active'>医生团队 <text class='line'>|</text></view>
-    <view class='tab' bindtap='handleCustomerService'>在线咨询</view>
+    <view class='tab active'>医生团队
+      <text class='line'>|</text>
+    </view>
+    <view class='tab'>
+      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">在线咨询</button>
+    </view>
   </view>
 
   <!-- <view class="userinfo">

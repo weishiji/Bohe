@@ -2,6 +2,8 @@
 //获取应用实例
 const app = getApp();
 import config from '../../config.js';
+import doctors from '../doctors.js';
+const util = require('../../utils/util.js');
 
 Page({
   data: {
@@ -27,6 +29,17 @@ Page({
       url: '../customerService/index',
     });
   },
+  mergeDoctorData : (data) => {
+    return data.reduce((origin,item) => {
+      let filterData = doctors.filter(doctor => item.id == doctor.id)[0];
+      if(filterData) origin.push({
+        ...item,
+        photo: config.imgPath + item.photo,
+        ...filterData,
+      })
+      return origin;
+    },[]);
+  },
   onLoad: function () {
     let url = config.api + '/doctor/doctorlist?num=999';
     wx.showLoading({
@@ -36,11 +49,11 @@ Page({
       url,
       success: (res) => {
         this.setData({
-          doctorList : res.data,
+          doctorList: this.mergeDoctorData(util.getFromObject(res,'data.data',[])),
           loading : false,
         });
         wx.hideLoading();
-        console.log(res.data)
+        console.log(this.mergeDoctorData(util.getFromObject(res, 'data.data', [])))
       }
     })
     //if (app.globalData.userInfo) {

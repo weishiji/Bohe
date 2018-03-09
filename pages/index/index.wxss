@@ -91,12 +91,13 @@
   border:none;
   flex: 1;
   text-align: center;
-  padding: 16px;
+  padding: 8px;
   border-radius: 0;
   -webkit-tap-highlight-color:transparent;
   position: relative;
   top:-1px;
   font-size: 14px;
+  line-height: 2.55555556;
 }
 .active{
   border-top:1px solid #2F7979;
@@ -106,4 +107,9 @@
   position: absolute;
   right: 0;
   color:#AEAEAE;
+}
+.contact-button{
+  border:none !important;
+  padding: 0;
+  font-size: 14px; 
 }
