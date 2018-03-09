@@ -2,12 +2,20 @@
 //获取应用实例
 const app = getApp();
 import config from '../../config.js';
+import doctors from '../doctors.js';
 
 Page({
   data: {
     data : {},
     loading : true,
-    imgPath: config.imgPath,
+  },
+  mergeDoctorData : (data) => {
+    let filterData = doctors.filter(doctor => doctor.id == data.id)[0] || {};
+    return {
+      ...data,
+      photo : config.imgPath + data.photo,
+      ...filterData,
+    }
   },
   onLoad: function (option) {
     let url = config.api + '/doctor/doctorone?id=' + option.id;
@@ -19,7 +27,7 @@ Page({
       success: (res) => {
         let {data:{data}} = res;
         this.setData({
-          data,
+          data: this.mergeDoctorData(data),
           loading : false,
         });
         wx.hideLoading();

@@ -9,7 +9,6 @@ Page({
   data: {
     loading : true,
     doctorList : [],
-    imgPath: config.imgPath,
     //canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数

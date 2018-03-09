@@ -9,12 +9,12 @@
     </view>
     <view class='doctor-sub'>
       <text>正畸:</text>
-      <text class='num'>24987</text>
+      <text class='num'>{{data.caseNum}}</text>
       <text>例</text>
     </view>
     <view class='doctor-sub'>
       <text>复杂正畸:</text>
-      <text class='num'>1987</text>
+      <text class='num'>{{data.hardCaseNum}}</text>
       <text>例</text>
     </view>
     <view class='auth'>
