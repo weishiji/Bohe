@@ -2,7 +2,7 @@ export default [
   {
     "id" : 56,
     "name" : "姜若萍",
-    "photo" : "",
+    "photo": "../../assets/jiangruoping.jpg",
     "yearService": "28",
     "caseNum": 2500,
     "hardCaseNum": 1800
