@@ -38,7 +38,6 @@
   align-items: center;
   align-content:center;
   justify-content:center;
-  width:100%;
   padding: 16px;
 }
 .auth-image{
@@ -97,6 +96,7 @@
 .case-content{
   flex: 1;
   padding: 12px 0;
+  overflow: hidden;
 }
 .name{
   font-size:12px;
