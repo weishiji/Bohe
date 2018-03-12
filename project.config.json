@@ -26,12 +26,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "detail",
-					"pathName": "pages/detail/index",
+					"pathName": "pages/customDetail/index",
 					"query": "id=56"
 				},
 				{

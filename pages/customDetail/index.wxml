@@ -2,7 +2,7 @@
 <view wx:if="{{!loading}}">
   <view class='container box'>
     <view class='detail-header'>
-      <image class='avatar' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
+      <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
       </image>
       <view class='doctor-name'>{{data.name}}</view>
       <view class='doctor-title'>{{data.institution}} | {{data.jobtitle}} | 从业12年</view>
@@ -42,7 +42,7 @@
       <view class='case-avatar avatar'>
       </view>
       <view class='case-content'>
-
+        <view class='name'>张女士 <text class='history-num'>病历号：（23438）</text></view>
       </view>
     </view>
   </view>

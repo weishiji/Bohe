@@ -1,4 +1,7 @@
-
+.avatar.big{
+  width: 80px;
+  height: 80px;
+}
 .detail-header{
   padding : 8px 0;
   display: flex;
@@ -77,4 +80,20 @@
   color:#FFF;
   font-size: 13px;
   padding:8px 0;
+}
+.case-content{
+  flex: 1;
+}
+.name{
+  font-size:12px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  line-height: 2;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+.history-num{
+  position: absolute;
+  right: 0;
+  color:#999;
 }

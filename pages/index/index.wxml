@@ -26,8 +26,6 @@
   </view>
   <view class='button-box'>
     <button bindtap='handleToTeam' class='button'>更多医生</button>
-
-    
   </view>
   <view class='tabs'>
     <view class='tab active'>医生团队
