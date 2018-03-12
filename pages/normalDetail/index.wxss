@@ -1,0 +1,101 @@
+
+.detail-header{
+  padding : 8px 0;
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  text-align: center;
+  align-items:center;
+  min-height: 150px;
+}
+.detail-header .doctor-name{
+  color: #333333;
+  padding: 8px 0;
+}
+.detail-header .avatar,.detail-header .doctor-name{
+  flex: 1;
+}
+.doctor-title{
+  color : #868686;
+  font-size: 13px;
+}
+.doctor-sub{
+  text-align: center;
+  font-size: 12px;
+  color: #5A5A5A;
+  font-weight: normal;
+  padding:4px;
+}
+.doctor-sub .num{
+  color : #F27F75;
+  padding: 0 2px;
+}
+.auth{
+  display: flex;
+  align-items: center;
+  align-content:center;
+}
+.auth-item{
+  flex: 1;
+  font-size: 12px;
+  font-weight: 400;
+  color : #255B5A;
+}
+.detail-info,.case{
+  padding : 8px;
+}
+.title-line{
+  border-left: 4px solid #517A79;
+  font-size:13px;
+  text-align: left;
+  padding-left: 8px;
+}
+.skill{
+  font-size: 13px;
+  color : #CBCBCB;
+  background-color: #F4F4F4;
+  padding : 4px 8px;
+  margin:8px 0;
+  border-radius: 1px;
+}
+.introduce{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  text-indent: 2em;
+  color:#878787;
+  margin:16px 0;
+}
+.case-box{
+  display: flex;
+}
+.button-box{
+  padding : 16px 8px;
+}
+.button{
+  background-color: #4F7878;
+  color:#FFF;
+  font-size: 13px;
+  padding:8px 0;
+}
+.qr-code-box{
+  text-align: center;
+}
+.qr-code{
+  width : 50%;
+  margin-bottom: 8px;
+}
+.qr-title{
+  font-size:13px;
+  color:#9C999A;
+  line-height: 2;
+}
+.qr-name{
+  color:#333;
+  font-weight: 800;
+}
+.sub-title{
+  font-size: 13px;
+  text-indent: 2em;
+  color:#999;
+}

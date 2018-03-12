@@ -47,6 +47,6 @@
     </view>
   </view>
   <view class='button-box'>
-    <button class='button'>立即咨询</button>
+    <button session-from='矫正正畸正颌-{{data.name}}' open-type="contact" class='button'>立即咨询</button>
   </view>
 </view>

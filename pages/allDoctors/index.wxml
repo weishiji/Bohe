@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view wx:if="{{!loading}}" class='container'>
+  <view class='list-box'>
+    <navigator url="../normalDetail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>
+      <image class='avatar' mode='scaleToFill' src='{{item.photo}}'>
+      </image>
+      <view class='media-body'>
+        <view>{{item.name}}</view>
+        <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}</view>
+      </view>
+    </navigator>
+  </view>
+</view>

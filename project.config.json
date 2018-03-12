@@ -26,13 +26,25 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
 					"name": "detail",
 					"pathName": "pages/detail/index",
 					"query": "id=56"
+				},
+				{
+					"id": -1,
+					"name": "all",
+					"pathName": "pages/allDoctors/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "normal",
+					"pathName": "pages/normalDetail/index",
+					"query": "id=20"
 				}
 			]
 		}

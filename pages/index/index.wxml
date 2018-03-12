@@ -5,7 +5,7 @@
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
   </view>
   <view class='list-box'>
-    <navigator url="../detail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>
+    <navigator url="../customDetail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>
       <image class='avatar' mode='scaleToFill' src='{{item.photo}}'>
       </image>
       <view class='media-body'>
