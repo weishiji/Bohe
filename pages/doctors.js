@@ -33,11 +33,30 @@ export default [
     "sort" : 3
   }
   ,{
-    "id": 54,
-    "name": "吴晶",
+    "id": 59,
+    "name": "张益",
     "yearService": "28",
-    "caseNum": 2000,
+    "photo": "../../assets/zhangyi.jpeg",
+    "caseNum": 1900,
     "hardCaseNum": 1300,
     "sort": 4
+  }
+  ,{
+    "id": 58,
+    "name": "王晓霞",
+    "photo": "../../assets/wangxiaoxia.jpeg",
+    "yearService": "28",
+    "caseNum": 1500,
+    "hardCaseNum": 700,
+    "sort": 5,
+  }
+  , {
+    "id": 57,
+    "name": "安金刚",
+    "photo": "../../assets/anjingang.jpeg",
+    "yearService": "28",
+    "caseNum": 1200,
+    "hardCaseNum": 600,
+    "sort": 6,
   }
 ]

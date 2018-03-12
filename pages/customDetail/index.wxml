@@ -19,14 +19,15 @@
     </view>
     <view class='auth'>
       <view class='auth-item'>
+        <image class='auth-image' src='../../assets/auth.png'></image>
         <view>真实身份认证</view>
       </view>
       <view class='auth-item'>
-
+        <image class='auth-image' src='../../assets/star.png'></image>
         <view>执照资格认证</view>
       </view>
       <view class='auth-item'>
-
+        <image class='auth-image' src='../../assets/user.png'></image>
         <view>医师资格认证</view>
       </view>
     </view>
@@ -38,11 +39,34 @@
   </view>
   <view class='box case'>
     <view class='title-line'>典型案例</view>
-    <view class='case-box'>
+    <view class='hope' wx:if="{{!caseData}}">
+      待完善
+    </view>
+    <view wx:if="{{caseData}}" class='case-box'>
       <view class='case-avatar avatar'>
       </view>
       <view class='case-content'>
-        <view class='name'>张女士 <text class='history-num'>病历号：（23438）</text></view>
+        <view class='name'>{{caseData.name}} <text class='history-num'>病历号：（{{caseData.history_num}}）</text></view>
+        <view class='case-des'>{{caseData.description}}</view>
+        <view class='case-diff'>
+          <view class='diff-img'>
+            <image class='img' mode='aspectFill' src='{{caseData.before}}'></image>
+            <text>矫正前</text>
+          </view>
+          <view class='diff-img'>
+            <image  class='img' mode='aspectFill' src='{{caseData.after}}'></image>
+            <text>矫正后</text>
+          </view>
+        </view>
+        <view class='case-point'>
+          正畸周期：{{caseData.date}}
+        </view>
+        <view class='case-point'>
+          治疗方案：{{caseData.plan}}
+        </view>
+        <view class='case-point'>
+          正畸难点：{{caseData.hard}}
+        </view>
       </view>
     </view>
   </view>
