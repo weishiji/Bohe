@@ -5,7 +5,7 @@
   background-color: #2F7979;
   color : #FFF;
   text-align: center;
-  padding: 4px;
+  padding: 0 0 4px 0;
   position: fixed;
   z-index: 9;
 }

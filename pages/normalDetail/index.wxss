@@ -61,9 +61,9 @@
 .introduce{
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 2.4;
   text-indent: 2em;
-  color:#878787;
+  color:#777777;
   margin:16px 0;
 }
 .case-box{

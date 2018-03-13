@@ -51,11 +51,11 @@
         <view class='case-des'>{{caseData.description}}</view>
         <view class='case-diff'>
           <view class='diff-img'>
-            <image class='img' mode='aspectFill' src='{{caseData.before}}'></image>
+            <image class='img' mode='widthFix' src='{{caseData.before}}'></image>
             <text>矫正前</text>
           </view>
           <view class='diff-img'>
-            <image  class='img' mode='aspectFill' src='{{caseData.after}}'></image>
+            <image  class='img' mode='widthFix' src='{{caseData.after}}'></image>
             <text>矫正后</text>
           </view>
         </view>
