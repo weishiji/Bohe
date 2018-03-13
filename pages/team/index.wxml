@@ -1,4 +1,0 @@
-<!--index.wxml-->
-<view>
-  <web-view src="https://view.boheyayi.com/doctorlist"></web-view>
-</view>

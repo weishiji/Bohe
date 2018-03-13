@@ -19,14 +19,8 @@ Page({
   },
   handleToTeam : () => {
     wx.navigateTo({
-      url: '../team/index'
+      url: '../../pages/allDoctors/index'
     })
-  },
-  handleCustomerService : () => {
-    console.log('go to customer service');
-    wx.navigateTo({
-      url: '../customerService/index',
-    });
   },
   mergeDoctorData : (data) => {
     return data.reduce((origin,item) => {

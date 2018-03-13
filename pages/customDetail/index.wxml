@@ -1,0 +1,77 @@
+<!--index.wxml-->
+<view wx:if="{{!loading}}">
+  <view class='container box'>
+    <view class='detail-header'>
+      <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
+      </image>
+      <view class='doctor-name'>{{data.name}}</view>
+      <view class='doctor-title'>{{data.institution}} | {{data.jobtitle}} | 从业12年</view>
+    </view>
+    <view class='doctor-sub'>
+      <text>正畸：约</text>
+      <text class='num'>{{data.caseNum}}</text>
+      <text>例</text>
+    </view>
+    <view class='doctor-sub'>
+      <text>复杂正畸：约</text>
+      <text class='num'>{{data.hardCaseNum}}</text>
+      <text>例</text>
+    </view>
+    <view class='auth'>
+      <view class='auth-item'>
+        <image class='auth-image' src='../../assets/auth.png'></image>
+        <view>真实身份认证</view>
+      </view>
+      <view class='auth-item'>
+        <image class='auth-image' src='../../assets/star.png'></image>
+        <view>执照资格认证</view>
+      </view>
+      <view class='auth-item'>
+        <image class='auth-image' src='../../assets/user.png'></image>
+        <view>医师资格认证</view>
+      </view>
+    </view>
+  </view>
+  <view class='box detail-info'>
+    <view class='title-line'>简介与擅长</view>
+    <view class='skill'>{{data.skilledin}}</view>
+    <view class='introduce'>{{data.introduce}}</view>
+  </view>
+  <view class='box case'>
+    <view class='title-line'>典型案例</view>
+    <view class='hope' wx:if="{{!caseData}}">
+      待完善
+    </view>
+    <view wx:if="{{caseData}}" class='case-box'>
+      <view class='avatar-box'>
+        <image mode='aspectFit' src='{{caseData.avatar}}' class='case-avatar' ></image>
+      </view>
+      <view class='case-content'>
+        <view class='name'>{{caseData.name}} <text class='history-num'>病历号：（{{caseData.history_num}}）</text></view>
+        <view class='case-des'>{{caseData.description}}</view>
+        <view class='case-diff'>
+          <view class='diff-img'>
+            <image class='img' mode='aspectFill' src='{{caseData.before}}'></image>
+            <text>矫正前</text>
+          </view>
+          <view class='diff-img'>
+            <image  class='img' mode='aspectFill' src='{{caseData.after}}'></image>
+            <text>矫正后</text>
+          </view>
+        </view>
+        <view class='case-point'>
+          正畸周期：{{caseData.date}}
+        </view>
+        <view class='case-point'>
+          治疗方案：{{caseData.plan}}
+        </view>
+        <view class='case-point'>
+          正畸难点：{{caseData.hard}}
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='button-box'>
+    <button session-from='矫正正畸正颌-{{data.name}}' open-type="contact" class='button'>立即咨询</button>
+  </view>
+</view>

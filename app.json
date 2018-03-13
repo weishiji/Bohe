@@ -2,9 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/detail/index",
-    "pages/team/index",
-    "pages/customerService/index"
+    "pages/customDetail/index",
+    "pages/normalDetail/index",
+    "pages/allDoctors/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

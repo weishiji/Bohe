@@ -6,14 +6,14 @@ import doctors from '../doctors.js';
 
 Page({
   data: {
-    data : {},
-    loading : true,
+    data: {},
+    loading: true,
   },
-  mergeDoctorData : (data) => {
+  mergeDoctorData: (data) => {
     let filterData = doctors.filter(doctor => doctor.id == data.id)[0] || {};
     return {
       ...data,
-      photo : config.imgPath + data.photo,
+      photo: config.imgPath + data.photo,
       ...filterData,
     }
   },
@@ -25,10 +25,10 @@ Page({
     wx.request({
       url,
       success: (res) => {
-        let {data:{data}} = res;
+        let { data: { data } } = res;
         this.setData({
           data: this.mergeDoctorData(data),
-          loading : false,
+          loading: false,
         });
         wx.hideLoading();
         wx.setNavigationBarTitle({
@@ -37,6 +37,6 @@ Page({
         console.log(res.data)
       }
     });
-    
+
   }
 })

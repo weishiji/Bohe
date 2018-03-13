@@ -78,3 +78,24 @@
   font-size: 13px;
   padding:8px 0;
 }
+.qr-code-box{
+  text-align: center;
+}
+.qr-code{
+  width : 50%;
+  margin-bottom: 8px;
+}
+.qr-title{
+  font-size:13px;
+  color:#9C999A;
+  line-height: 2;
+}
+.qr-name{
+  color:#333;
+  font-weight: 800;
+}
+.sub-title{
+  font-size: 13px;
+  text-indent: 2em;
+  color:#999;
+}

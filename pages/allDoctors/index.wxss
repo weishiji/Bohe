@@ -1,0 +1,29 @@
+
+/**index.wxss**/
+
+.list-box{
+  height: calc(100vh-32px);
+  width: 100%;
+  background-color: #FFF;
+}
+.doctor-item{
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.media-body{
+  flex : 1;
+  margin-left: 8px;
+}
+.work-time{
+  font-size: 13px;
+  color:#9C9C9C;
+  margin-left: 16px;
+}
+.sub-title{
+  margin: 8px 0;
+  font-size: 13px;
+  color: #999;
+}
