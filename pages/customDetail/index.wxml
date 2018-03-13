@@ -43,7 +43,8 @@
       待完善
     </view>
     <view wx:if="{{caseData}}" class='case-box'>
-      <view class='case-avatar avatar'>
+      <view class='avatar-box'>
+        <image mode='aspectFit' src='{{caseData.avatar}}' class='case-avatar' ></image>
       </view>
       <view class='case-content'>
         <view class='name'>{{caseData.name}} <text class='history-num'>病历号：（{{caseData.history_num}}）</text></view>
