@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<!--江若萍/宋广瀛/刘晓默/苏红/吴晶  -->
 <view wx:if="{{!loading}}" class='container'>
   <view class='header'>
     <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
@@ -10,13 +9,11 @@
       </image>
       <view class='media-body'>
         <view>{{item.name}}
-          <text class='work-time'>{{item.yearService}}年</text>
+          <!-- <text class='work-time'>{{item.yearService}}年</text> -->
         </view>
         <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}</view>
-        <view class='case-text'>正畸：约
-          <text class='num'>{{item.caseNum}}</text>例</view>
-        <view class='case-text'>复杂正畸：约
-          <text class='num'>{{item.hardCaseNum}}</text>例</view>
+        <view class='case-text'>正畸：约<text class='num'>{{item.caseNum}}</text>例</view>
+        <view class='case-text'>复杂正畸：约<text class='num'>{{item.hardCaseNum}}</text>例</view>
         <view class='more'>
           MORE...
           <image class='more-icon' src='../../assets/more.svg'></image>

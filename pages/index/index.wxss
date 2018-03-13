@@ -5,20 +5,20 @@
   background-color: #2F7979;
   color : #FFF;
   text-align: center;
-  padding: 0 0 4px 0;
+  padding: 0 0 12px 0;
   position: fixed;
   z-index: 9;
 }
 .header-title {
   font-size: smaller;
-  margin : 4px 0;
+  margin : 0 0 0 4px;
   display: block;
   color: #fff;
 }
 
 .list-box{
-  height: calc(100vh-32px);
-  margin-top :32px;
+  height: calc(100vh-30px);
+  padding-top :30px;
   width: 100%;
   background-color: #FFF;
 }
@@ -43,16 +43,16 @@
 
 .media-body{
   flex : 1;
-  margin-left: 8px;
+  margin-left: 16px;
 }
 .work-time{
-  font-size: 13px;
+  font-size: 14px;
   color:#9C9C9C;
   margin-left: 16px;
 }
 .sub-title{
   margin: 8px 0;
-  font-size: 13px;
+  font-size: 14px;
 
 }
 .case-text{
