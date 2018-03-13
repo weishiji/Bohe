@@ -114,7 +114,8 @@
 }
 .case-des{
   font-size: 12px;
-  color:#888;
+  color:#777;
+  line-height: 2;
   text-indent: 2em;
 }
 .case-diff{
@@ -138,7 +139,7 @@
   font-size: 13px;
   color: #878787;
   margin-bottom: 8px;
-  line-height: 2;
+  line-height: 1.6;
 }
 .avatar-box{
   margin-right: 12px;
