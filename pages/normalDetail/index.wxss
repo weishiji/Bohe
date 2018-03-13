@@ -1,4 +1,7 @@
-
+.avatar.big{
+  width: 100px;
+  height: 100px;
+}
 .detail-header{
   padding : 8px 0;
   display: flex;
@@ -82,7 +85,8 @@
   text-align: center;
 }
 .qr-code{
-  width : 50%;
+  width: 100px;
+  height: 100px;
   margin-bottom: 8px;
 }
 .qr-title{
@@ -96,6 +100,6 @@
 }
 .sub-title{
   font-size: 13px;
-  text-indent: 2em;
   color:#999;
+  margin: 12px 0 6px 0;
 }

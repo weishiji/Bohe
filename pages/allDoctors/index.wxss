@@ -15,15 +15,26 @@
 
 .media-body{
   flex : 1;
-  margin-left: 8px;
+  margin-left: 16px;
 }
 .work-time{
-  font-size: 13px;
+  font-size: 14px;
   color:#9C9C9C;
   margin-left: 16px;
 }
 .sub-title{
   margin: 8px 0;
-  font-size: 13px;
+  font-size: 14px;
   color: #999;
+  position: relative;
+}
+
+.more-icon{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 0;
+  top:-5px;
+  background-color: #FFF;
+  padding: 0 8px;
 }

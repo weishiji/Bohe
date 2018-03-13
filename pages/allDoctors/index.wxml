@@ -6,7 +6,9 @@
       </image>
       <view class='media-body'>
         <view>{{item.name}}</view>
-        <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}</view>
+        <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}
+          <image class='more-icon' src='../../assets/more.svg'></image>
+        </view>
       </view>
     </navigator>
   </view>
