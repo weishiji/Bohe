@@ -4,23 +4,23 @@ export default [
     "name" : "姜若萍",
     "photo": "../../assets/jiangruoping.jpg",
     "yearService": "28",
-    "caseNum": 2500,
-    "hardCaseNum": 1800,
+    "caseNum": 5000,
+    "hardCaseNum": 3000,
     "sort" : -8,
   }
   , {
     "id": 7,
     "name": "宋广瀛",
     "yearService": "28",
-    "caseNum": 1500,
-    "hardCaseNum": 800,
+    "caseNum": 2500,
+    "hardCaseNum": 1000,
     "sort" : -7,
   }
   , {
     "id": 27,
     "name": "刘晓默",
     "yearService": "28",
-    "caseNum": 1500,
+    "caseNum": 2000,
     "hardCaseNum": 800,
     "sort" : -6
   }
@@ -37,8 +37,8 @@ export default [
     "name": "张益",
     "yearService": "28",
     "photo": "../../assets/zhangyi.jpeg",
-    "caseNum": 1900,
-    "hardCaseNum": 1300,
+    "caseNum": 6000,
+    "hardCaseNum": 3000,
     "sort": -4
   }
   ,{
@@ -46,8 +46,8 @@ export default [
     "name": "王晓霞",
     "photo": "../../assets/wangxiaoxia.jpeg",
     "yearService": "28",
-    "caseNum": 1500,
-    "hardCaseNum": 700,
+    "caseNum": 5000,
+    "hardCaseNum": 2000,
     "sort": -3,
   }
   , {
@@ -55,8 +55,8 @@ export default [
     "name": "安金刚",
     "photo": "../../assets/anjingang.jpeg",
     "yearService": "28",
-    "caseNum": 1200,
-    "hardCaseNum": 600,
+    "caseNum": 3000,
+    "hardCaseNum": 1500,
     "sort": -2,
   }
   , {
@@ -64,8 +64,8 @@ export default [
     "name": "李阳",
     "photo": "../../assets/liyang.jpeg",
     "yearService": "28",
-    "caseNum": 1000,
-    "hardCaseNum": 600,
+    "caseNum": 1500,
+    "hardCaseNum": 800,
     "sort": -1,
   }
 ]

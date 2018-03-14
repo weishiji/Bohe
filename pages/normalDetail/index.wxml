@@ -29,7 +29,7 @@
   <view class='box case'>
     <view class='title-line'>第一职业机构</view>
     <view class='sub-title'>
-      {{data.degree}}
+      {{data.institution}}
     </view>
   </view>
   <view class='button-box'>
