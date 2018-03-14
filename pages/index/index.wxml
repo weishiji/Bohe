@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view wx:if="{{!loading}}" class='container'>
   <view class='header'>
-    <text class='header-title'>三甲医院、正畸专家、经验丰富</text>
+    <text class='header-title'>三甲医院、正畸正颌专家、经验丰富</text>
   </view>
   <view class='list-box'>
     <navigator url="../customDetail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>
@@ -11,9 +11,9 @@
         <view>{{item.name}}
           <!-- <text class='work-time'>{{item.yearService}}年</text> -->
         </view>
-        <view class='sub-title'>{{item.institution}} | {{item.jobtitle}}</view>
-        <view class='case-text'>正畸：约<text class='num'>{{item.caseNum}}</text>例</view>
-        <view class='case-text'>复杂正畸：约<text class='num'>{{item.hardCaseNum}}</text>例</view>
+        <view class='sub-title'>{{item.institution}}</view>
+        <view class='case-text'>{{item.caseTitle}}：约<text class='num'>{{item.caseNum}}</text>例</view>
+        <view class='case-text'>复杂案例：约<text class='num'>{{item.hardCaseNum}}</text>例</view>
         <view class='more'>
           MORE...
           <image class='more-icon' src='../../assets/more.svg'></image>
