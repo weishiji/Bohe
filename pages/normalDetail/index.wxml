@@ -5,7 +5,7 @@
       <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
       </image>
       <view class='doctor-name'>{{data.name}}</view>
-      <view class='doctor-title'>{{data.institution}} | {{data.jobtitle}}</view>
+      <view class='doctor-title'>{{data.institution}}</view>
     </view>
   </view>
   <view class='box detail-info'>
