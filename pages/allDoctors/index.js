@@ -3,6 +3,7 @@
 const app = getApp();
 import config from '../../config.js';
 import doctors from '../doctors.js';
+import list from '../list.js';
 const util = require('../../utils/util.js');
 
 Page({
@@ -31,10 +32,12 @@ Page({
   mergeDoctorData: (data) => {
     return data.reduce((origin, item) => {
       let filterData = doctors.filter(doctor => item.id == doctor.id)[0] || {};
+      let listData = list.filter(l => l.id == item.id)[0] || {};
       origin.push({
         ...item,
         photo: config.imgPath + item.photo,
         ...filterData,
+        ...listData,
       })
       return origin;
     }, []).sort((a, b) => {
