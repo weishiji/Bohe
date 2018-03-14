@@ -34,7 +34,7 @@
   height: 18px;
   position: absolute;
   right: 0;
-  top:-5px;
+  top:-6px;
   background-color: #FFF;
-  padding: 0 8px;
+  padding: 8px;
 }

@@ -6,7 +6,7 @@ export default [
   }
   ,{
     "id": 60,
-    "name": "李洋",
+    "name": "李阳",
     "photo": "../../assets/liyang.jpeg",
   }
   , {

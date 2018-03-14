@@ -6,7 +6,7 @@ export default [
     "yearService": "28",
     "caseNum": 2500,
     "hardCaseNum": 1800,
-    "sort" : 0,
+    "sort" : -8,
   }
   , {
     "id": 7,
@@ -14,7 +14,7 @@ export default [
     "yearService": "28",
     "caseNum": 1500,
     "hardCaseNum": 800,
-    "sort" : 1,
+    "sort" : -7,
   }
   , {
     "id": 27,
@@ -22,7 +22,7 @@ export default [
     "yearService": "28",
     "caseNum": 1500,
     "hardCaseNum": 800,
-    "sort" : 2
+    "sort" : -6
   }
   , {
     "id": 30,
@@ -30,7 +30,7 @@ export default [
     "yearService": "28",
     "caseNum": 1500,
     "hardCaseNum": 800,
-    "sort" : 3
+    "sort" : -5
   }
   ,{
     "id": 59,
@@ -39,7 +39,7 @@ export default [
     "photo": "../../assets/zhangyi.jpeg",
     "caseNum": 1900,
     "hardCaseNum": 1300,
-    "sort": 4
+    "sort": -4
   }
   ,{
     "id": 58,
@@ -48,7 +48,7 @@ export default [
     "yearService": "28",
     "caseNum": 1500,
     "hardCaseNum": 700,
-    "sort": 5,
+    "sort": -3,
   }
   , {
     "id": 57,
@@ -57,6 +57,15 @@ export default [
     "yearService": "28",
     "caseNum": 1200,
     "hardCaseNum": 600,
-    "sort": 6,
+    "sort": -2,
+  }
+  , {
+    "id": 60,
+    "name": "李阳",
+    "photo": "../../assets/liyang.jpeg",
+    "yearService": "28",
+    "caseNum": 1000,
+    "hardCaseNum": 600,
+    "sort": -1,
   }
 ]
