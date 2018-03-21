@@ -163,7 +163,7 @@
 .star-level{
   width:90px;
   position: absolute;
-  top: -2px;
+  top: -3px;
 }
 .richard-box{
   display: flex;
