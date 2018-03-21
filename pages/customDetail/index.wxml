@@ -42,40 +42,43 @@
     <view class='hope' wx:if="{{!caseData}}">
       待完善
     </view>
-    <view wx:if="{{caseData}}" class='case-box'>
+    <view wx:if="{{caseData}}">
+    <view wx:for="{{caseData.cases}}" wx:key="unique" class='case-box'>
       <view class='avatar-box'>
-        <image mode='aspectFit' src='{{caseData.avatar}}' class='case-avatar'></image>
+        <image mode='aspectFit' src='{{item.avatar}}' class='case-avatar'></image>
       </view>
       <view class='case-content'>
-        <view class='name'>{{caseData.name}}
-          <text class='history-num'>病历号：（{{caseData.history_num}}）</text>
+        <view class='name'>{{item.name}}
+          <text class='history-num'>病历号：（{{item.history_num}}）</text>
         </view>
-        <view class='case-des'>{{caseData.description}}</view>
+        <view class='case-des'>{{item.description}}</view>
         <view class='case-diff'>
           <view class='diff-img'>
-            <image class='img' mode='widthFix' src='{{caseData.before}}'></image>
+            <image class='img' mode='widthFix' src='{{item.before}}'></image>
             <text>矫正前</text>
           </view>
           <view class='diff-img'>
-            <image class='img' mode='widthFix' src='{{caseData.after}}'></image>
+            <image class='img' mode='widthFix' src='{{item.after}}'></image>
             <text>矫正后</text>
           </view>
         </view>
         <view class='case-point'>
-          正畸周期：{{caseData.date}}
+          正畸周期：{{item.date}}
         </view>
         <view class='case-point'>
-          治疗方案：{{caseData.plan}}
+          治疗方案：{{item.plan}}
         </view>
         <view class='case-point'>
-          正畸难点：{{caseData.hard}}
+          正畸难点：{{item.hard}}
         </view>
         <view class='case-point '>
           <text>正畸难度：</text>
-          <image mode='widthFix' class='star-level' src='../../assets/{{caseData.star}}star.jpeg'></image>
+          <image mode='widthFix' class='star-level' src='../../assets/{{item.star}}star.jpeg'></image>
         </view>
       </view>
     </view>
+    </view>
+    
     <view class='richard-box'>
       <view>更多案例详询
         <text class='richard'>医生助理 Richard</text>
