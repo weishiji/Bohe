@@ -42,10 +42,10 @@ export default [
             "after": "../../assets/jiangruoping/1after3.jpg",
           }
         ],
-        "date": "2013.08～2015.09",
-        "plan": "减数14，24，34，44；Pass矫治技术（XBT颊管＋MLF托槽）；上下颌强支抗",
-        "hard": "支抗控制 前牙转矩控制",
-        "star": '4_5'
+        "date": "13.5个月",
+        "plan": "不希望改变面型、唇形",
+        "hard": "扭转牙，需要判断牙齿的移动过程",
+        "star": '4_0'
       },
       {
         "name": "xx女士",
@@ -66,10 +66,10 @@ export default [
             "after": "../../assets/jiangruoping/2after3.jpg",
           }
         ],
-        "date": "2013.08～2015.09",
-        "plan": "减数14，24，34，44；Pass矫治技术（XBT颊管＋MLF托槽）；上下颌强支抗",
-        "hard": "支抗控制 前牙转矩控制",
-        "star": '4_5'
+        "date": "2014/02 ~ 2016/10",
+        "plan": "",
+        "hard": "下8萌出中，严重前倾阻生",
+        "star": '5_0'
       }
     ],
   }

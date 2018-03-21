@@ -5,7 +5,7 @@
       <image class='avatar big' mode='scaleToFill' src='{{imgPath}}{{data.photo}}'>
       </image>
       <view class='doctor-name'>{{data.name}}</view>
-      <view class='doctor-title'>{{data.institution}}</view>
+      <view class='doctor-title'>{{data.institution}} | {{data.education}}</view>
     </view>
     <view class='doctor-sub'>
       <text>{{data.caseTitle}}：约</text>
@@ -49,7 +49,7 @@
       </view>
       <view class='case-content'>
         <view class='name'>{{item.name}}
-          <text class='history-num'>病历号：（{{item.history_num}}）</text>
+          <text class='history-num'>病历号：{{item.history_num}}</text>
         </view>
         <view class='case-des'>{{item.description}}</view>
         <view wx:for="{{item.diff}}" wx:for-item='diff' wx:key="unique">
@@ -76,7 +76,7 @@
         </view>
         <view class='case-point '>
           <text>正畸难度：</text>
-          <image mode='widthFix' class='star-level' src='../../assets/{{item.star}}star.jpeg'></image>
+          <image mode='widthFix' class='star-level' src='../../assets/{{item.star}}star.jpg'></image>
         </view>
       </view>
     </view>
