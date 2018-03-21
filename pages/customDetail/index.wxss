@@ -161,9 +161,9 @@
   margin-top: 8px;
 }
 .star-level{
-  width:100px;
+  width:90px;
   position: absolute;
-  top: -4px;
+  top: -2px;
 }
 .richard-box{
   display: flex;
