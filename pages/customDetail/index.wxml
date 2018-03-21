@@ -52,16 +52,19 @@
           <text class='history-num'>病历号：（{{item.history_num}}）</text>
         </view>
         <view class='case-des'>{{item.description}}</view>
-        <view class='case-diff'>
+        <view wx:for="{{item.diff}}" wx:for-item='diff' wx:key="unique">
+          <view class='case-diff'>
           <view class='diff-img'>
-            <image class='img' mode='widthFix' src='{{item.before}}'></image>
+            <image class='img' mode='widthFix' src='{{diff.before}}'></image>
             <text>矫正前</text>
           </view>
           <view class='diff-img'>
-            <image class='img' mode='widthFix' src='{{item.after}}'></image>
+            <image class='img' mode='widthFix' src='{{diff.after}}'></image>
             <text>矫正后</text>
           </view>
         </view>
+        </view>
+        
         <view class='case-point'>
           正畸周期：{{item.date}}
         </view>
