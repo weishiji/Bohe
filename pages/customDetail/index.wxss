@@ -126,9 +126,7 @@
   line-height: 2;
 }
 .case-diff{
-  margin-bottom: 16px;
-  border-bottom: 1px solid #eee;
-  
+  margin-bottom: 0px;
 }
 .diff-img{
   flex: 1;
@@ -137,6 +135,10 @@
   color : #999;
   text-align: center;
   padding: 0 8px;
+}
+.case-border{
+  border-top:1px solid #EEEEEE;
+  padding-top: 24px;
 }
 .diff-img .img{
   width: 100%;

@@ -65,7 +65,7 @@
         </view>
         </view>
         
-        <view class='case-point'>
+        <view class='case-point case-border'>
           正畸周期：{{item.date}}
         </view>
         <view class='case-point'>

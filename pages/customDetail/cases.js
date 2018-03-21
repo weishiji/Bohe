@@ -26,8 +26,8 @@ export default [
       {
         "name": "xx女士",
         "avatar": "../../assets/jiangruoping/avatar1.jpg",
-        "history_num": 23438,
-        "description": "病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙。",
+        "history_num": 43981,
+        "description": "",
         "diff": [
           {
             "before": "../../assets/jiangruoping/1before1.jpg",
@@ -50,8 +50,8 @@ export default [
       {
         "name": "xx女士",
         "avatar": "../../assets/jiangruoping/avatar2.jpg",
-        "history_num": 23438,
-        "description": "病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙病例特点 突面型，嘴突，俗称龅牙。",
+        "history_num": 66981,
+        "description": "",
         "diff": [
           {
             "before": "../../assets/jiangruoping/2before1.jpg",
