@@ -7,6 +7,7 @@ export default [
     "caseNum": 5000,
     "hardCaseNum": 3000,
     "caseTitle" : "正畸案例",
+    "education": "医学博士",
     "sort" : -8,
   }
   , {
@@ -16,6 +17,7 @@ export default [
     "caseNum": 2500,
     "hardCaseNum": 1000,
     "caseTitle": "正畸案例",
+    "education": "医学正畸学双博士",
     "sort" : -7,
   }
   , {
@@ -25,6 +27,7 @@ export default [
     "caseNum": 2000,
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
+    "education": "正畸学博士",
     "sort" : -6
   }
   , {
@@ -34,6 +37,7 @@ export default [
     "caseNum": 1500,
     "hardCaseNum": 800,
     "caseTitle": "正畸案例",
+    "education": "正畸学博士",
     "sort" : -5
   }
   ,{
@@ -44,6 +48,7 @@ export default [
     "caseNum": 6000,
     "hardCaseNum": 3000,
     "caseTitle": "正颌案例",
+    "education": "医学博士",
     "sort": -4
   }
   ,{
@@ -54,6 +59,7 @@ export default [
     "caseNum": 5000,
     "hardCaseNum": 2000,
     "caseTitle": "正颌案例",
+    "education": "医学博士",
     "sort": -3,
   }
   , {
@@ -64,6 +70,7 @@ export default [
     "caseNum": 3000,
     "hardCaseNum": 1500,
     "caseTitle": "正颌案例",
+    "education": "医学博士",
     "sort": -2,
   }
   , {
@@ -74,6 +81,7 @@ export default [
     "caseNum": 1500,
     "hardCaseNum": 800,
     "caseTitle": "正颌案例",
+    "education": "医学博士",
     "sort": -1,
   }
 ]

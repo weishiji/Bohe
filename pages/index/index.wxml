@@ -11,7 +11,7 @@
         <view>{{item.name}}
           <!-- <text class='work-time'>{{item.yearService}}年</text> -->
         </view>
-        <view class='sub-title'>{{item.institution}}</view>
+        <view class='sub-title'>{{item.institution}} | {{item.education}}</view>
         <view class='case-text'>{{item.caseTitle}}：约<text class='num'>{{item.caseNum}}</text>例</view>
         <view class='case-text'>复杂案例：约<text class='num'>{{item.hardCaseNum}}</text>例</view>
         <view class='more'>
