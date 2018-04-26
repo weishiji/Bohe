@@ -3,6 +3,14 @@
   <view class='header'>
     <text class='header-title'>三甲医院、正畸正颌专家、经验丰富</text>
   </view>
+  <view class='banner-box'>
+    <navigator url="../customDetail/index?id={{item.id}}">
+      <image class='banner' mode='scaleToFill' src='../../assets/banner.jpg'></image>
+    </navigator>
+  </view>
+  <view class='title-box'>
+    <text>专家体检</text>
+  </view>
   <view class='list-box'>
     <navigator url="../customDetail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>
       <image class='avatar' mode='scaleToFill' src='{{item.photo}}'>
