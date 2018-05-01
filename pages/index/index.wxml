@@ -5,11 +5,12 @@
   </view>
   <view class='banner-box'>
     <navigator url="../question/index">
-      <image class='banner' mode='scaleToFill' src='../../assets/banner.jpg'></image>
+      <image style="width: {{imagewidth}}px; height: {{imageheight}}px;"  src="{{banner}}" bindload="imageLoad"></image>  
+      <!-- <image class='banner' mode='scaleToFill' src='../../assets/banner.jpg'></image> -->
     </navigator>
   </view>
   <view class='title-box'>
-    <text>专家体检</text>
+    <text>专家推荐</text>
   </view>
   <view class='list-box'>
     <navigator url="../customDetail/index?id={{item.id}}" wx:for="{{doctorList}}" wx:key="unique" class='doctor-item'>

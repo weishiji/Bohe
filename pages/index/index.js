@@ -10,6 +10,16 @@ Page({
     loading : true,
     doctorList : [],
     //canIUse: wx.canIUse('button.open-type.getUserInfo')
+    banner: '../../assets/banner.jpg',
+    imagewidth: 0,//缩放后的宽  
+    imageheight: 0,//缩放后的高
+  },
+  imageLoad: function (e) {
+    var imageSize = util.imageUtil(e)
+    this.setData({
+      imagewidth: imageSize.imageWidth,
+      imageheight: imageSize.imageHeight
+    })
   },
   //事件处理函数
   bindViewTap: function() {
