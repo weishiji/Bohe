@@ -4,7 +4,7 @@
     <text class='header-title'>三甲医院、正畸正颌专家、经验丰富</text>
   </view>
   <view class='banner-box'>
-    <navigator url="../customDetail/index?id={{item.id}}">
+    <navigator url="../question/index">
       <image class='banner' mode='scaleToFill' src='../../assets/banner.jpg'></image>
     </navigator>
   </view>

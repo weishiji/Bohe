@@ -1,0 +1,7 @@
+.text-content{
+  text-indent: 2em;
+  font-size: 12px;
+  color:#666;
+  padding:12px;
+  line-height: 1.8;
+}

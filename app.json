@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/customDetail/index",
     "pages/normalDetail/index",
-    "pages/allDoctors/index"
+    "pages/allDoctors/index",
+    "pages/question/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -23,3 +23,9 @@ page{
   height: 70px;
   border-radius: 50%; 
 }
+.title-line{
+  border-left: 4px solid #517A79;
+  font-size:13px;
+  text-align: left;
+  padding-left: 8px;
+}
