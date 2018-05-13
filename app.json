@@ -5,7 +5,8 @@
     "pages/customDetail/index",
     "pages/normalDetail/index",
     "pages/allDoctors/index",
-    "pages/question/index"
+    "pages/question/index",
+    "pages/about/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

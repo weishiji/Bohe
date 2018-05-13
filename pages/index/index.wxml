@@ -34,22 +34,18 @@
     <button bindtap='handleToTeam' class='button'>更多医生</button>
   </view>
   <view class='tabs'>
-    <view class='tab active'>医生团队
+    <view class='tab active'>
+      <navigator url="../about/index">
+        关于正颌
+        <text class='line'>|</text>
+      </navigator>
+    </view>
+    <view class='tab'>
+      在线医生
       <text class='line'>|</text>
     </view>
     <view class='tab'>
       <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">在线咨询</button>
     </view>
   </view>
-
-  <!-- <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">薄荷牙医-正畸
-    <text class="user-motto">{{motto}}</text>
-  </view> -->
 </view>

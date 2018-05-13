@@ -29,3 +29,8 @@ page{
   text-align: left;
   padding-left: 8px;
 }
+.sub-title{
+  font-size: 13px;
+  color:#999;
+  margin: 12px 0 6px 0;
+}
