@@ -39,14 +39,46 @@
 }
 .flex{
   flex: 1;
-  padding: 8px;
 }
 .black{
   color: #333;
 }
-.question{
-  margin-bottom: 36px;
+.diff{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  justify-content:center;
+  text-align: center;
 }
+.center{
+  height: 200px;
+  margin:auto;
+}
+.bottom{
+  margin-bottom: 40px;
+}
+.list{
+  display: flex;
+  border-bottom: 1px solid #eee;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  margin-left: 12px;
+  width:60px;
+  height: 50px;
+}
+.list-content{
+  flex:1;
+  font-size: 14px;
+  margin-left: 12px;
+}
+.process-title{
+  font-size: 16px;
+  margin-bottom: 8px;
+  color:#666;
+}
+
 .tabs{
   position: fixed;
   left:0;
