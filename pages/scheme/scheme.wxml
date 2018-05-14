@@ -1,0 +1,293 @@
+<!--pages/scheme/scheme.wxml-->
+<view class='root'>
+
+  <view class='header'>
+    <text class='title'>智齿解决方案</text>
+    <text class='line'></text>
+  </view>
+
+  <view class='info' style='margin-top: 16px;'>
+    <view class='title'>关于我们</view>
+    <view class='about'>薄荷牙医是中国首家纯三甲医院口腔医师多点执业的预约和管理平台。平台汇聚北大口腔等权威三甲口腔医院优质口腔专科医生近千名。并精选高端口腔诊所深度合作，门店覆盖北京热门商圈，同时自建管理系统——微信端为用户提供咨询实时回复、快捷预约、精准匹配适合的口腔专业医生，云端电子图文病历永久储存；免挂号、无需排队到店即诊，全程陪诊，诊后贴心呵护，私人口腔健康管家闭环式服务。</view>
+  </view>
+
+  <view class='sub_title'>• 精准量化手术时间 •</view>
+
+  <view class='info' style='margin-top: 16px;'>
+
+    <view class='title'>挂对号 不浪费时间</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/guahao1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/guahao2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>排队、排床位等待时间长</text>
+        <text class='text'>正畸（排号4-6个月）</text>
+        <text class='text'>正颌（排号1-3年）</text>
+        <text class='text'>顺序错了，重新来过！</text>
+      </view>
+      <view class='item'>
+        <text class='text'>节省等待时间</text>
+        <text class='text'>1-2周即可预约上</text>
+        <text class='text'>确定方案后，即可治疗</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='info'>
+
+    <view class='title'>跨学科配合 高效沟通</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/goutong1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/goutong2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>治疗周期长</text>
+        <text class='text'>需要在不同科室转诊</text>
+      </view>
+      <view class='item'>
+        <text class='text'>正颌正畸专家</text>
+        <text class='text'>跨学科团队无需转诊</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='info'>
+
+    <view class='title'>贴心管家服务</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/fuwu1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/fuwu2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>挂号等待耗时费心</text>
+        <text class='text'>盲目就诊无依托</text>
+      </view>
+      <view class='item'>
+        <text class='text'>7*12小时线上咨询</text>
+        <text class='text'>线下全程陪诊</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='info'>
+
+    <view class='title'>打包收费 省心省力</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/qian1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/qian2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>挂号、排片、手术</text>
+        <text class='text'>无数次排队缴费</text>
+      </view>
+      <view class='item'>
+        <text class='text'>一次性收费</text>
+        <text class='text'>免除排队烦恼且无多余附加费用</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='sub_title'>• 更低的费用 薄荷不一样 •</view>
+
+  <view class='info' style='margin-top: 16px;'>
+
+    <view class='title'>优质专家坐诊</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/zizhi1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/zizhi2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>医生资质背景不详</text>
+      </view>
+      <view class='item'>
+        <text class='text'>全亚洲最优质的</text>
+        <text class='text'>正颌专家团队</text>
+        <text class='text'>王晓霞、李阳等</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='info'>
+
+    <view class='title'>专业 安全</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/anquan1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/anquan2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>过度滥用医学技术</text>
+        <text class='text'>适应症选择不当</text>
+        <text class='text'>伤害不可修复</text>
+      </view>
+      <view class='item'>
+        <text class='text'>对症且个性化治疗</text>
+        <text class='text'>安全方案降低隐患</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='info'>
+
+    <view class='title'>最大限度保障消费者权益</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/quan1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/quan2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>出现纠纷</text>
+        <text class='text'>投诉无门</text>
+      </view>
+      <view class='item'>
+        <text class='text'>薄荷牙医</text>
+        <text class='text'>与患者同在</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='info'>
+
+    <view class='title'>性价比高</view>
+
+    <view class='imageBox'>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/jia1.jpg'></image>
+      </view>
+      <view class='line'></view>
+      <view class='item'>
+        <image class='image' src='../../assets/scheme/jia2.jpg'></image>
+      </view>
+    </view>
+
+    <view class='contentBox'>
+      <view class='item'>
+        <text class='text'>治疗和复查</text>
+        <text class='text'>往返几次国内外</text>
+        <text class='text'>额外费用占大头</text>
+      </view>
+      <view class='item'>
+        <text class='text'>国内诊疗</text>
+        <text class='text'>私人口腔管家全程陪诊</text>
+        <text class='text'>无后顾之忧</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='sub_title'>• 更低的费用 薄荷不一样 •</view>
+
+  <view class='info' style='margin-top: 16px;'>
+
+    <view class='contentBox' style='margin-top: 16px; padding-top:8px;'>
+      <view class='item'>
+        <text class='text'>普通门诊</text>
+      </view>
+      <view class='item'>
+        <text class='text'>北大国际</text>
+      </view>
+    </view>
+
+    <view class='imageBox' style='margin-top: 16px;'>
+      <view class='item'>
+        <image class='image2' src='../../assets/scheme/putong1.jpg'></image>
+      </view>
+      <view class='item'>
+        <image class='image2' src='../../assets/scheme/beida1.jpg'></image>
+      </view>
+    </view>
+
+    <view class='imageBox' style='margin-top: 16px;'>
+      <view class='item'>
+        <image class='image2' src='../../assets/scheme/putong2.jpg'></image>
+      </view>
+      <view class='item'>
+        <image class='image2' src='../../assets/scheme/beida2.jpg'></image>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='tabs'>
+    <view class='tab'>
+      <navigator url="../about/index">
+        关于正颌
+        <text class='line'>|</text>
+      </navigator>
+    </view>
+    <view class='tab'>
+      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">
+        在线咨询
+        <text class='line'>|</text>
+      </button>
+    </view>
+    <view class='tab active'>
+      <navigator url='../scheme/scheme'>
+        薄荷优势
+      </navigator>
+    </view>
+  </view>
+
+</view>

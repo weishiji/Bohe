@@ -53,11 +53,15 @@
       </navigator>
     </view>
     <view class='tab'>
-      在线医生
-      <text class='line'>|</text>
+      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">
+        在线咨询
+        <text class='line'>|</text>  
+      </button>
     </view>
     <view class='tab'>
-      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">在线咨询</button>
+      <navigator url='../scheme/scheme'>
+        薄荷优势
+      </navigator>
     </view>
   </view>
 </view>
