@@ -53,10 +53,10 @@
       </navigator>
     </view>
     <view class='tab'>
-      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">
-        在线咨询
-        <text class='line'>|</text>  
-      </button>
+      <navigator url="../allDoctors/index">
+        医生团队
+        <text class='line'>|</text>
+      </navigator>
     </view>
     <view class='tab'>
       <navigator url='../scheme/scheme'>

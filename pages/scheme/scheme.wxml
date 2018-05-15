@@ -2,7 +2,7 @@
 <view class='root'>
 
   <view class='header'>
-    <text class='title'>智齿解决方案</text>
+    <text class='title'>正颌正畸解决方案</text>
     <text class='line'></text>
   </view>
 
@@ -278,10 +278,10 @@
       </navigator>
     </view>
     <view class='tab'>
-      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">
-        在线咨询
+      <navigator url="../allDoctors/index">
+        医生团队
         <text class='line'>|</text>
-      </button>
+      </navigator>
     </view>
     <view class='tab active'>
       <navigator url='../scheme/scheme'>
