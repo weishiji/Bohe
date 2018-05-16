@@ -1,7 +1,23 @@
-.text-content{
+.text-content {
   text-indent: 2em;
   font-size: 12px;
-  color:#666;
-  padding:12px;
+  color: #666;
+  padding: 12px;
   line-height: 1.8;
+}
+
+.text {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.image-box {
+  text-align: center;
+  padding: 8px;
+}
+
+.image-box .title {
+  font-size: 14px;
+  color: #999;
+  padding: 8px;
 }

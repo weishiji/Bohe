@@ -1,50 +1,55 @@
 <!--index.wxml-->
 <view wx:if="{{!loading}}" class='container'>
+
   <view class='header'>
     <text class='header-title'>三甲医院、正畸正颌专家、经验丰富</text>
   </view>
+
   <view class='banner-box'>
-    <navigator url="../question/index">
-       <image style="width: {{bannerWidth}}px; height: {{bannerHeight}}px;" src='../../assets/about/banner.jpg' bindload="bannerLoad"></image>
+    <navigator url="../scheme/scheme">
+      <image style="width: {{bannerWidth}}px; height: {{bannerHeight}}px;" src='../../assets/about/banner.jpg' bindload="bannerLoad"></image>
     </navigator>
   </view>
-  <view class='box flex'>
-    <view class='title-line'>牙齿矫正没有年龄限制</view>
 
-    <view class='sub-title' style='padding:8px;'>
-      牙齿矫正没有年龄限制，不管多大年纪都可以去做。但牙齿矫正
-      和爱情一样，虽没有年龄的限制，但是却存在最好的时机。正
-      畸有两个最佳年龄段：12岁—14岁，16—18岁，这两个生长发育
-      高峰期是做牙齿矫正最好的时机。错过虽不至于遗憾终身，但是
-      少些迂回，直达目标不是更好吗？
+  <view class='box'>
+    <view class='title-line'>牙齿矫正没有年龄限制</view>
+    <view class='sub-title'>
+      牙齿矫正没有年龄限制，不管多大年纪都可以去做。但牙齿矫正 和爱情一样，虽没有年龄的限制，但是却存在最好的时机。正 畸有两个最佳年龄段：12岁—14岁，16—18岁，这两个生长发育 高峰期是做牙齿矫正最好的时机。错过虽不至于遗憾终身，但是 少些迂回，直达目标不是更好吗？
     </view>
-    <view class='sub-title black' style='padding:8px;'>
+    <view class='sub-title black'>
       牙齿矫正虽然没有年龄限制，但是早一天矫正，早一天遇见更美的自己！
     </view>
   </view>
+
   <view class='box' style='width:100%;'>
     <view class='title-line'>正颌手术前后对比照</view>
     <view class='diff'>
+      <view class='title'>上颌骨发育不足</view>
       <image class='center' mode='aspectFit' src='../../assets/about/diff1.jpg' bindload="diffLoad"></image>
+      <view class='title'>下颌骨发育不足</view>
       <image class='center' mode='aspectFit' src='../../assets/about/diff2.jpg' bindload="diffLoad"></image>
     </view>
   </view>
+
   <view class='box'>
     <navigator url="../question/index">
       <image style="width: {{questionWidth}}px; height: {{questionHeight}}px;" src="../../assets/about/question.jpg" bindload="questionLoad"></image>
     </navigator>
   </view>
+
   <view class='process-title'>
     正畸正颌流程
   </view>
+
   <view class='box bottom' style='width:100%;'>
     <view class='list' wx:for="{{process}}" wx:key="unique">
       <image mode='widthFix' class='icon' src='{{item.image}}'></image>
       <view class='list-content'>
-          {{item.content}}
+        {{item.content}}
       </view>
     </view>
   </view>
+
   <view class='tabs'>
     <view class='tab active'>
       <navigator url="../about/index">
@@ -53,7 +58,7 @@
       </navigator>
     </view>
     <view class='tab'>
-      <navigator url="../allDoctors/index">
+      <navigator url="../index/index">
         医生团队
         <text class='line'>|</text>
       </navigator>
@@ -64,4 +69,5 @@
       </navigator>
     </view>
   </view>
+
 </view>

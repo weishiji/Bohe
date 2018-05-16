@@ -278,7 +278,7 @@
       </navigator>
     </view>
     <view class='tab'>
-      <navigator url="../allDoctors/index">
+      <navigator url="../index/index">
         医生团队
         <text class='line'>|</text>
       </navigator>

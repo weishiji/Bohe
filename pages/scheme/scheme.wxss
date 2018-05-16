@@ -66,10 +66,8 @@
 
 .info .image {
   width: 100px;
-  height: 100px;
+  height: 70px;
 }
-
-
 
 .info .image2 {
   width: 110px;

@@ -1,13 +1,13 @@
 {
   "pages": [
+    "pages/about/index",
+    "pages/question/index",
     "pages/scheme/scheme",
     "pages/index/index",
     "pages/logs/logs",
     "pages/customDetail/index",
     "pages/normalDetail/index",
-    "pages/allDoctors/index",
-    "pages/question/index",
-    "pages/about/index"
+    "pages/allDoctors/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

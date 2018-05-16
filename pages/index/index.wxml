@@ -5,7 +5,7 @@
   </view>
   <view class='banner-box'>
     <navigator url="../question/index">
-      <image style="width: {{imagewidth}}px; height: {{imageheight}}px;"  src="{{banner}}" bindload="imageLoad"></image>  
+      <image style="width: {{imagewidth}}px; height: {{imageheight}}px;" src="{{banner}}" bindload="imageLoad"></image>
       <!-- <image class='banner' mode='scaleToFill' src='../../assets/banner.jpg'></image> -->
     </navigator>
   </view>
@@ -21,8 +21,10 @@
           <!-- <text class='work-time'>{{item.yearService}}年</text> -->
         </view>
         <view class='sub-title'>{{item.institution}} | {{item.education}}</view>
-        <view class='case-text'>{{item.caseTitle}}：约<text class='num'>{{item.caseNum}}</text>例</view>
-        <view class='case-text'>复杂案例：约<text class='num'>{{item.hardCaseNum}}</text>例</view>
+        <view class='case-text'>{{item.caseTitle}}：约
+          <text class='num'>{{item.caseNum}}</text>例</view>
+        <view class='case-text'>复杂案例：约
+          <text class='num'>{{item.hardCaseNum}}</text>例</view>
         <view class='more'>
           MORE...
           <image class='more-icon' src='../../assets/more.svg'></image>
@@ -33,19 +35,24 @@
   <view class='button-box'>
     <button bindtap='handleToTeam' class='button'>更多医生</button>
   </view>
+
   <view class='tabs'>
-    <view class='tab active'>
+    <view class='tab'>
       <navigator url="../about/index">
         关于正颌
         <text class='line'>|</text>
       </navigator>
     </view>
-    <view class='tab'>
-      在线医生
-      <text class='line'>|</text>
+    <view class='tab active'>
+      <navigator url="../index/index">
+        医生团队
+        <text class='line'>|</text>
+      </navigator>
     </view>
     <view class='tab'>
-      <button session-from='矫正正畸正颌-首页' class='contact-button' plain open-type="contact">在线咨询</button>
+      <navigator url='../scheme/scheme'>
+        薄荷优势
+      </navigator>
     </view>
   </view>
 </view>

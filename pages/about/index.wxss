@@ -1,118 +1,136 @@
-
 /**index.wxss**/
-.header{
-  width : 100%;
-  background-color: #2F7979;
-  color : #FFF;
+
+.header {
+  width: 100%;
+  background-color: #2f7979;
+  color: #fff;
   text-align: center;
   padding: 0 0 12px 0;
   position: fixed;
   z-index: 9;
 }
+
 .header-title {
   font-size: smaller;
-  margin : 0 0 0 4px;
+  margin: 0 0 0 4px;
   display: block;
   color: #fff;
 }
-.banner-box{
+
+.banner-box {
   padding-top: 36px;
 }
-.title-box{
+
+.title-box {
   background-color: #f5f5f9;
   padding: 16px;
   text-align: center;
   color: #d7d7d7;
-  font-size:13px;
+  font-size: 13px;
 }
-.button-box{
-  margin : 0px 0 56px 0;
+
+.button-box {
+  margin: 0px 0 56px 0;
   width: 100%;
 }
-.button{
+
+.button {
   background-color: #585859;
-  color:#FFF;
+  color: #fff;
   font-size: 13px;
   padding: 8px 0;
   margin: 16px;
-  
 }
-.flex{
+
+.flex {
   flex: 1;
 }
-.black{
+
+.black {
   color: #333;
 }
-.diff{
-  display:flex;
-  flex-direction:column;
-  width:100%;
-  justify-content:center;
+
+.diff {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
   text-align: center;
 }
-.center{
+
+.center {
   height: 200px;
-  margin:auto;
+  margin: auto;
 }
-.bottom{
+
+.bottom {
   margin-bottom: 40px;
 }
-.list{
+
+.list {
   display: flex;
   border-bottom: 1px solid #eee;
   justify-content: center;
   align-items: center;
+  padding: 8px;
 }
-.icon{
+
+.icon {
   margin-left: 12px;
-  width:60px;
-  height: 50px;
+  width: 32px;
+  height: 32px;
 }
-.list-content{
-  flex:1;
+
+.list-content {
+  flex: 1;
   font-size: 14px;
   margin-left: 12px;
 }
-.process-title{
+
+.process-title {
   font-size: 16px;
   margin-bottom: 8px;
-  color:#666;
+  color: #666;
 }
 
-.tabs{
+.tabs {
   position: fixed;
-  left:0;
-  width:100%;
+  left: 0;
+  width: 100%;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF;
-  border-top:1px solid #AEAEAE;
+  background-color: #fff;
+  border-top: 1px solid #aeaeae;
 }
-.tab{
-  border:none;
+
+.tab {
+  border: none;
   flex: 1;
   text-align: center;
   padding: 8px;
   border-radius: 0;
-  -webkit-tap-highlight-color:transparent;
+  -webkit-tap-highlight-color: transparent;
   position: relative;
-  top:-1px;
+  top: -1px;
   font-size: 14px;
   line-height: 2.55555556;
 }
-.active{
-  border-top:1px solid #2F7979;
-  color:#2F7979;
+
+.active {
+  border-top: 1px solid #2f7979;
+  color: #2f7979;
 }
-.line{
+
+.line {
   position: absolute;
   right: 0;
-  color:#AEAEAE;
+  color: #aeaeae;
 }
-.contact-button{
-  border:none !important;
+
+.contact-button {
+  border: none !important;
   padding: 0;
-  font-size: 14px; 
+  font-size: 14px;
 }
