@@ -6,10 +6,9 @@
   </view>
 </view>
 
-<view class='image-box'>
-  <image mode='aspectFit' src='../../assets/about/diff1.jpg' bindload="diffLoad"></image>
-  <image mode='aspectFit' src='../../assets/about/diff2.jpg' bindload="diffLoad"></image>
-  <view class='title'>下颌骨发育不足</view>
+<view class='image-box box'>
+  <image class='image' src='../../assets/question/diff1.jpg' bindload="diffLoad"></image>
+  <view class='title'>面部发育不足</view>
 </view>
 
 <view class='box'>
@@ -22,10 +21,9 @@
   </view>
 </view>
 
-<view class='image-box'>
-  <image mode='aspectFit' src='../../assets/about/diff1.jpg' bindload="diffLoad"></image>
-  <image mode='aspectFit' src='../../assets/about/diff2.jpg' bindload="diffLoad"></image>
-  <view class='title'>下颌骨发育不足</view>
+<view class='box image-box'>
+  <image class='image' src='../../assets/question/diff2.jpg' bindload="diffLoad"></image>
+  <view class='title'>上颌骨发育不足</view>
 </view>
 
 <view class='box'>

@@ -65,13 +65,13 @@
 }
 
 .info .image {
-  width: 100px;
-  height: 70px;
+  width: 110px;
+  height: 68px;
 }
 
 .info .image2 {
   width: 110px;
-  height: 110px;
+  height: 74px;
 }
 
 .info .line {

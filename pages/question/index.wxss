@@ -21,3 +21,9 @@
   color: #999;
   padding: 8px;
 }
+
+.image {
+  height: 392px;
+  width: 250px;
+  margin: auto;
+}
