@@ -23,11 +23,11 @@
 
   <view class='box' style='width:100%;'>
     <view class='title-line'>正颌手术前后对比照</view>
-    <view class='diff'>
-      <view class='title'>上颌骨发育不足</view>
+    <view class='diff' style='margin-top:16px;'>
       <image class='center' mode='aspectFit' src='../../assets/about/diff1.jpg' bindload="diffLoad"></image>
       <view class='title'>下颌骨发育不足</view>
       <image class='center' mode='aspectFit' src='../../assets/about/diff2.jpg' bindload="diffLoad"></image>
+      <view class='title'>上颌骨发育不足</view>
     </view>
   </view>
 
@@ -42,10 +42,12 @@
   </view>
 
   <view class='box bottom' style='width:100%;'>
-    <view class='list' wx:for="{{process}}" wx:key="unique">
-      <image mode='widthFix' class='icon' src='{{item.image}}'></image>
-      <view class='list-content'>
-        {{item.content}}
+    <view wx:for="{{process}}" wx:key="unique">
+      <view class='list'>
+        <image mode='widthFix' class='icon' src='{{item.image}}'></image>
+        <view class='list-content'>
+          {{item.content}}
+        </view>
       </view>
     </view>
   </view>
